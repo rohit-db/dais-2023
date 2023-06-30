@@ -1,8 +1,9 @@
-# dais-2023
+# DAIS-2023
 
 
 # Announcements - Day 1
-A host of exciting announcements were made during today’s keynotes, including: 
+
+A host of exciting announcements were made during the keynotes, including: 
 
 ## Generative AI
 
@@ -13,6 +14,12 @@ A host of exciting announcements were made during today’s keynotes, including:
     - **Model Serving**: GPU-enabled, real-time inference of LLMs at up to 10X lower latency and reduced costs
     - **Curated Open Source Models**, backed by optimized Model Serving for high performance
     - **MLflow 2.5**: Manage your end-to-end LLM Operations (LLMOps) effectively and reliably
+
+
+**Blogs**   
+[Introducing LakehouseIQ: The AI-Powered Engine that Uniquely Understands Your Business](https://www.databricks.com/blog/introducing-lakehouseiq-ai-powered-engine-uniquely-understands-your-business?utm_source=databricks&utm_medium=email)
+[Lakehouse AI: A Data-Centric Approach to Building Generative AI Applications](https://www.databricks.com/blog/lakehouse-ai?utm_source=databricks&utm_medium=email)
+
 
 ## Unity Catalog
 
@@ -26,7 +33,17 @@ Data Sharing and Collaboration
 - **Databricks Clean Rooms**: Privacy-safe collaboration. Available now in Private Preview on AWS.
 - **Delta Sharing**: Databricks is expanding the Delta Sharing ecosystem with new partners, including Cloudflare, Dell, Oracle and Twilio.
 
-##Delta Lake
+**Blogs**  
+[Introducing Lakehouse Federation Capabilities in Unity Catalog](https://www.databricks.com/blog/introducing-lakehouse-federation-capabilities-unity-catalog?utm_source=databricks&utm_medium=email)   
+[What’s new with Unity Catalog at Data and AI Summit 2023](https://www.databricks.com/blog/whats-new-unity-catalog-data-and-ai-summit-2023?utm_source=databricks&utm_medium=email)   
+[What’s New with Data Sharing and Collaboration on the Lakehouse](https://www.databricks.com/blog/whats-new-data-sharing-and-collaboration-lakehouse?utm_source=databricks&utm_medium=email)
+
+
+## Delta Lake
 
 - **Delta Lake 3.0**: UniForm provides automatic translation to Apache Iceberg or Apache Hudi to eliminate lakehouse platform incompatibility 
+
  
+ # Announcements - Day 2
+A host of exciting announcements were made during today’s keynotes, including: 
+
