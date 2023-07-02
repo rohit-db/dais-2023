@@ -5,9 +5,11 @@
 # MAGIC
 # MAGIC - PostgreSQL 
 # MAGIC   - Use `oetrta` for the demo
-# MAGIC   - Review existing tables and add a table to. Unity Catalog
+# MAGIC   - Review existing tables 
+# MAGIC   - Try to add a single table to an existing catalog (this isn't supported yet)
+# MAGIC   - Setup a new Connection and a Foreign catalog
 # MAGIC   - Setup Permissions 
-# MAGIC   - Join with other Delta tables 
+# MAGIC   - Test Lineage
 # MAGIC   - Analyze spark plan
 # MAGIC - Databricks to Databricks
 # MAGIC - Snowflake (WIP)
@@ -211,11 +213,16 @@ dbutils.widgets.text("foreign_catalog", "rohit_play_area_postgres")
 
 # COMMAND ----------
 
-spark.table(f"{dbutils.widgets.get('foreign_catalog')}.public.{postgres_table}").write.format("delta").saveAsTable(f"{catalog}.{schema}.{postgres_table}")
+spark.table(f"{dbutils.widgets.get('foreign_catalog')}.public.{postgres_table}").write.format("delta").mode("overwrite").saveAsTable(f"{catalog}.{schema}.{postgres_table}")
 
 # COMMAND ----------
 
-# Check the lineage - the lineage will capture the source table being a Postgres table 
+# Check the lineage - the lineage should capture the source table being a Postgres table 
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC <img src="https://www.databricks.com/sites/default/files/inline-images/image1%20%281%29.png">
 
 # COMMAND ----------
 
