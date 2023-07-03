@@ -13,7 +13,7 @@
 # MAGIC   - Analyze spark plan
 # MAGIC - Databricks to Databricks
 # MAGIC - Snowflake (WIP)
-# MAGIC - Redshift (WIP)
+# MAGIC - Redshift (WIP) 
 
 # COMMAND ----------
 
