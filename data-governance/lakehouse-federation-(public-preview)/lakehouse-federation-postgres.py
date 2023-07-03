@@ -217,6 +217,18 @@ spark.table(f"{dbutils.widgets.get('foreign_catalog')}.public.{postgres_table}")
 
 # COMMAND ----------
 
+# MAGIC %md 
+# MAGIC ### Query the system table for Lineage
+
+# COMMAND ----------
+
+spark.sql(
+    f"""select source_table_schema, source_table_name, entity_type , *
+    from system.lineage.table_lineage where target_table_full_name = '{catalog}.{schema}.{postgres_table}'"""
+).display()
+
+# COMMAND ----------
+
 # Check the lineage - the lineage should capture the source table being a Postgres table 
 
 # COMMAND ----------
