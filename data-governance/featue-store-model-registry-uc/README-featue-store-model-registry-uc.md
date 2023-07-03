@@ -1,1 +1,6 @@
-# README for featue-store-model-registry-uc
+# Governance for AI 
+
+[Blog]()
+
+[Summit Video]()
+
