@@ -1,5 +1,17 @@
 # Data & AI Summit Major Announcements
 
+```
+Demos & Code Examples available in this repo (WIP): 
+- Data Engineering 
+    - Delta Lake 3.0
+    - Spark English SDK
+- Data Governance
+    - Lakehouse Federation 
+- Data Warehousing
+    - Streaming Tables and Materialized Views
+
+```
+
 ## Generative AI
 
 - **LakehouseIQ**: The knowledge engine of the Lakehouse that learns what makes your business unique to arm everyone with accurate answers.
