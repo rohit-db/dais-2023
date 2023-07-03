@@ -9,7 +9,6 @@ Demos & Code Examples available in this repo (WIP):
     - Lakehouse Federation 
 - Data Warehousing
     - Streaming Tables and Materialized Views
-
 ```
 
 ## Generative AI
@@ -35,6 +34,7 @@ Data Sharing and Collaboration
 - **Delta Sharing**: Databricks is expanding the Delta Sharing ecosystem with new partners, including Cloudflare, Dell, Oracle and Twilio.
 
 ## Data Engineering 
+
 - **Delta Lake 3.0**: UniForm provides automatic translation to Apache Iceberg or Apache Hudi to eliminate lakehouse platform incompatibility 
 - **Workflows**: Serverless Workflows and enhanced control flow 
 - **Project Lightspeed**: Improvements in Performance, enhanced ecosystem and more
