@@ -27,7 +27,6 @@ Demos & Code Examples available in this repo (WIP):
 - **AI Governance**: Feature Store, Model Registry and Volumes in Unity Catalog
 - **Lakehouse Monitoring and Observability**: Monitor quality and integrity for all your data and AI assets. Billing, audit, lineage and security info as tables for enhanced observability
 Data Sharing and Collaboration
-
 - **Databricks Marketplace**: An open marketplace for all your data, analytics, and AI models. Now Generally Available.
 - **Lakehouse Apps**: The most secure way to build, distribute, and run innovative data and AI applications directly on the Databricks Lakehouse.
 - **Databricks Clean Rooms**: Privacy-safe collaboration. Available now in Private Preview on AWS.
