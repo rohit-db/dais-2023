@@ -4,7 +4,8 @@
 [Lakehouse AI](https://www.databricks.com/blog/lakehouse-ai)
 [Lakehouse IQ](https://www.databricks.com/blog/introducing-lakehouseiq-ai-powered-engine-uniquely-understands-your-business)
 
-## Key Features
+# Lakehouse AI - Optimized for Generative AI 
+<img src="https://cms.databricks.com/sites/default/files/inline-images/image1_3.png">
 
 - **Lakehouse AI**
     - **Use existing models or train your own using your data**
@@ -29,3 +30,5 @@
     - Management and troubleshooting
     - Lakehouse IQ API
     - Governance and Security 
+
+
