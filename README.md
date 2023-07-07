@@ -45,7 +45,6 @@ Data Sharing and Collaboration
 - **Materialized views** are automatically and incrementally updated as new data arrives. 
 
 
-
 **Blogs**  
 [Introducing LakehouseIQ: The AI-Powered Engine that Uniquely Understands Your Business](https://www.databricks.com/blog/introducing-lakehouseiq-ai-powered-engine-uniquely-understands-your-business?utm_source=databricks&utm_medium=email)
 [Lakehouse AI: A Data-Centric Approach to Building Generative AI Applications](https://www.databricks.com/blog/lakehouse-ai?utm_source=databricks&utm_medium=email)

@@ -17,8 +17,18 @@ CREATE TABLE T (c1 INT) USING DELTA SET TBLPROPERTIES (
 
 Every write to this table will automatically keep Iceberg metadata updated. See the documentation [here](https://docs.delta.io/3.0.0rc1/delta-uniform.html) for more details.
 
+
+<img src = "https://cms.databricks.com/sites/default/files/inline-images/image1_5.png">
+
+
+## Liquid Partitioning
+Liquid Clustering, a new effort to revamp how clustering works in Delta, which addresses the shortcomings of Hive-style partitioning and current ZORDER clustering. This feature will be available to preview soon; meanwhile, for more information, please refer to Liquid Clustering [#1874](https://github.com/delta-io/delta/issues/1874).
+
+<img src = "https://cms.databricks.com/sites/default/files/inline-images/image2_3.png">
+
+
 ## Delta Kernel 
-The Delta Kernel project is a set of Java libraries (Rust will be coming soon) for building Delta connectors that can read (and soon, write to) Delta tables without the need to understand the [Delta protocol details](https://github.com/delta-io/delta/blob/master/PROTOCOL.md)).
+The Delta Kernel project is a set of Java libraries (Rust will be coming soon) for building Delta connectors that can read (and soon, write to) Delta tables without the need to understand the [Delta protocol details](https://github.com/delta-io/delta/blob/master/PROTOCOL.md).
 
 You can use this library to do the following:
 
@@ -27,10 +37,7 @@ You can use this library to do the following:
 - Build a complex connector for a distributed processing engine and read very large Delta tables.
 - [soon!] Write to Delta tables from multiple threads / processes / distributed engines.
 
-## Liquid Partitioning
-Liquid Clustering, a new effort to revamp how clustering works in Delta, which addresses the shortcomings of Hive-style partitioning and current ZORDER clustering. This feature will be available to preview soon; meanwhile, for more information, please refer to Liquid Clustering [#1874](https://github.com/delta-io/delta/issues/1874).
-
-
+<img src = "https://cms.databricks.com/sites/default/files/inline-images/image4_2.png">
 
 ## Delta Spark
 Delta Spark 3.0.0 is built on top of Apache Spark™ 3.4.    

@@ -4,6 +4,9 @@
 [Lakehouse AI](https://www.databricks.com/blog/lakehouse-ai)
 [Lakehouse IQ](https://www.databricks.com/blog/introducing-lakehouseiq-ai-powered-engine-uniquely-understands-your-business)
 
+## Sessions
+[Latest Databricks AI Capabilities](https://www.databricks.com/dataaisummit/session/deep-dive-latest-lakehouse-ai-capabilities/)
+
 # Lakehouse AI - Optimized for Generative AI 
 <img src="https://cms.databricks.com/sites/default/files/inline-images/image1_3.png">
 
