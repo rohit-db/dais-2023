@@ -92,6 +92,8 @@ describe history tpcds_web_sales
 
 
 /* Create a Silver aggregate table */
+drop materialized view if exists tpcds_web_agg;
+
 CREATE MATERIALIZED VIEW tpcds_web_agg 
 -- SCHEDULE CRON ‘0 0 * ? * * *’
 AS
